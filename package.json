@@ -4,7 +4,9 @@
   "description": "The open source modular smart mirror platform.",
   "main": "js/electron.js",
   "scripts": {
-    "start": "sh run-start.sh",
+    "dev": "npm run dev", 
+    "start": "sh run-start.sh", 
+    "start:server": "node serveronly",
     "install": "cd vendor && npm install",
     "postinstall": "sh installers/postinstall/postinstall.sh",
     "test": "./node_modules/mocha/bin/mocha tests --recursive",
