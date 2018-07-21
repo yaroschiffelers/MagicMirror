@@ -9,6 +9,23 @@
  * Changes to this files will be ignored by GIT. *
  *****************************************************/
 
- body {
- 	
+ html, body {
+    background: #fff;   
+    color: #000;
  }
+
+header {
+    color: #000;
+}
+
+.dimmed {
+    color: #605052;
+}
+
+.normal {
+    color: #2e242c;
+}
+
+.bright {
+    color:  #211a23;
+}
